@@ -11,6 +11,7 @@ from flask_jwt_extended import (
 
 from libs.strings import gettext
 from models.user import UserModel
+from schemas.user import UserSchema
 
 user_schema = UserSchema()
 
